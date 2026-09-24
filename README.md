@@ -57,11 +57,13 @@ The full report, with per-epoch loss, accuracy, and F1 curves and a confusion ma
 ## Repository layout
 
 ```
-code/
-├── 1905098.ipynb        # implementation, training, and evaluation
-├── model_1905098.pkl    # trained weights of the best model (Model 2, lr = 0.0005)
-├── report_1905098.pdf   # full results with plots and confusion matrices
-└── requirements.txt
+├── README.md
+├── Spec.pdf                 # problem specification: required components, dataset, and evaluation criteria
+└── code/
+    ├── 1905098.ipynb        # implementation, training, and evaluation
+    ├── model_1905098.pkl    # trained weights of the best model (Model 2, lr = 0.0005)
+    ├── report_1905098.pdf   # full results with plots and confusion matrices
+    └── requirements.txt
 ```
 
 ## Running it
